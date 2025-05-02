@@ -1,0 +1,9 @@
+9. Recipe Management API
+Description: Create an API for managing recipes where users can add, update, delete, and fetch recipe details. Requirements:
+
+HTTP Methods: GET (fetch recipes), POST (add recipe), PUT (update recipe), PATCH (partially update recipe), DELETE (delete recipe)
+Authentication: Use JWT for user authentication
+File System: Store recipe data in JSON files
+Async/Await & Promises: Handle asynchronous operations for file reading/writing
+Callbacks: Use callbacks for error handling
+Middleware: Implement middleware for logging requests, validating JWT tokens, and error handling
